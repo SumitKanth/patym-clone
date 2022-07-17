@@ -45,3 +45,89 @@ body{
 }
 
 /* Navbar style ends */
+
+
+/* SectionOne Starts */
+
+.sectionOne{
+  height: 3rem;
+  width: 100%;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sectionOne p{
+  margin-top: 8px;
+}
+
+.sectionOne p span{
+  font-weight: 600;
+}
+
+.emoji{
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+
+#link:hover{
+  cursor: pointer;
+}
+
+/* SectionOne Ends */
+
+
+/* SectionTwo Starts */
+
+#secTwo #leftSec{
+  height: 40rem;
+  padding: 7.5rem;
+}
+
+
+#secTwoleftImg{
+  height: 5rem;
+}
+
+#leftSec h1{
+  font-weight: 800;
+  font-size: 3.5rem;
+  margin-top: 3rem;
+}
+
+#leftSec h5{
+  margin-top: 1rem;
+  font-weight: 500; 
+}
+
+#btn{
+  margin-top: 2rem;
+  padding: 11px 26px;
+  border-radius: 34px;
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s ease-in-out;
+}
+
+#btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+#btn #apple{
+  font-size: 1.2rem;
+  margin: 0 6px;
+}
+
+#secTwo #rightSec{
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#secTwoRightImg{
+  height: 32rem;
+}
+
+/* SectionTwo Ends */
