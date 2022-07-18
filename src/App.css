@@ -197,3 +197,90 @@ body{
 }
 
 /* SectionFour Ends */
+
+
+/* SectionFive Starts */
+
+.secFive{
+  height: 10rem;
+}
+
+.content{
+  height: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.secFiveLeft{
+  margin: 0 6rem;
+  display: flex;
+}
+
+.secFiveLeft .leftText{
+  width: 200px;
+  margin-right: 10px;
+  font-weight: bolder;
+}
+
+.secFiveLeft a{
+  margin: 0 12px;
+  display: flex;
+  text-decoration: none;
+  background-color: #000;
+  border-radius: 10px;
+  color: #fff;
+  padding: 4px 0;
+}
+
+.secFiveLeft a .icon{
+  width: 3rem;
+  font-size: 2rem;
+  text-align: center;
+  color: #fff;
+}
+
+.secFiveLeft a .aText{
+  width: 10rem;
+}
+
+.small{
+  font-size: .7rem;
+}
+
+.bold{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.secFiveRight{
+  margin: 0 6rem;
+}
+
+.secFiveRight span i{
+  font-size: 1.5rem;
+  color: #808080;
+  margin: 0 .8rem;
+  cursor: pointer;
+}
+
+.hr{
+  width: 87.5%;
+  margin: 0 auto;
+}
+
+/* SectionFive Ends */
+
+
+/* Footer Section Starts  */
+
+.footer{
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #808080;
+}
+
+/* Footer Section Ends */
